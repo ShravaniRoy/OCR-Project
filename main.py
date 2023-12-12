@@ -2,8 +2,6 @@ from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from typing import List
-from telegram import Update
-from telegram.ext import CallbackContext
 import os
 
 app = FastAPI()
