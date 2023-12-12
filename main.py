@@ -18,7 +18,7 @@ def extract_truck_details(local_file_path):
 
 @app.post("/")
 async def welcome():
-    return "Welcome to OCR project"
+    return {"message":"Welcome to OCR project"}
 
 @app.post("/logTruck")
 async def ocr_bilti_image(images: List[UploadFile] = File(...)):
