@@ -14,7 +14,7 @@ def extract_truck_details(local_file_path):
     #we need to code for processing the image
     return "nothing as of now"
 
-@app.post("/")
+@app.get("/")
 async def welcome():
     return {"message":"Welcome to OCR project"}
 
