@@ -2,3 +2,4 @@ fastapi
 pydantic
 telegram
 uvicorn
+python-multipart
