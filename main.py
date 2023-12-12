@@ -16,6 +16,10 @@ def extract_truck_details(local_file_path):
     #we need to code for processing the image
     return "nothing as of now"
 
+@app.post("/")
+async def welcome():
+    return "Welcome to OCR project"
+
 @app.post("/logTruck")
 async def ocr_bilti_image(images: List[UploadFile] = File(...)):
     try:
